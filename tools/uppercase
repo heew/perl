@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+if ( $ARGV[0] ) {
+	foreach my $arg (@ARGV) {
+		print uc($arg) . "\n";
+	}
+} else {
+	while (<STDIN>) {
+		print uc($_);
+	}
+}
