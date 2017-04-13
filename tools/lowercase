@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# Place in /usr/local/bin/ or similar path that is in $PATH
+# use like so:
+# $ cat something.txt | lowercase
+# $ lowercase thistexthere
 use strict;
 use warnings;
 if ( $ARGV[0] ) {
